@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boda Anyely & Sebastián - Enero 2026</title>
+    <style>
+        /* ESTILOS BÁSICOS - PUEDES CAMBIAR COLORES */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fef7f7;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero-content h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        
+        .date {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        
+        .section {
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .detail-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .btn {
+            background: #d4a88c;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            display: inline-block;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #c4957a;
+        }
+    </style>
+</head>
+<body>
+    <!-- PORTADA -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Anyely & Sebastián</h1>
+            <div class="date">Enero 2026</div>
+            <a href="#details" class="btn">Ver Detalles</a>
+        </div>
+    </section>
+
+    <!-- DETALLES -->
+    <section id="details" class="section">
+        <h2 style="text-align: center;">Detalles de la Boda</h2>
+        <div class="details-grid">
+            <div class="detail-card">
+                <h3>📅 Fecha</h3>
+                <p>Sábado, 24 de Enero 2026</p>
+            </div>
+            <div class="detail-card">
+                <h3>📍 Lugar</h3>
+                <p>Nombre del Salón<br>Ciudad, País</p>
+            </div>
+            <div class="detail-card">
+                <h3>⏰ Hora</h3>
+                <p>4:00 PM - Ceremonia<br>6:00 PM - Recepción</p>
+            </div>
+            <div class="detail-card">
+                <h3>👔 Código de Vestimenta</h3>
+                <p>Formal Elegante</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section" style="background: #f8f8f8; text-align: center;">
+        <h2>Confirma Tu Asistencia</h2>
+        <p>Por favor confirma antes del 1 de Diciembre 2025</p>
+        <a href="https://forms.gle/TU-LINK-AQUI" class="btn" target="_blank">Confirmar Aquí</a>
+    </section>
+
+    <!-- INFORMACIÓN VIAJEROS -->
+    <section class="section">
+        <h2 style="text-align: center;">Para Nuestros Invitados Internacionales</h2>
+        <div class="details-grid">
+            <div class="detail-card">
+                <h3>✈️ Aeropuerto</h3>
+                <p>Aeropuerto Internacional Más Cercano<br>(Código: XXX)</p>
+            </div>
+            <div class="detail-card">
+                <h3>🏨 Hospedaje</h3>
+                <p>Hotel Recomendado<br>Tel: +XX XXX XXX XXXX</p>
+            </div>
+            <div class="detail-card">
+                <h3>🚗 Transporte</h3>
+                <p>Opciones desde aeropuerto<br>Taxi / Uber / Rental</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
